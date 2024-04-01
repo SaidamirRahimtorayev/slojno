@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin-inline: auto;
+}
+
+.whrere {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 800;
+}
+
+nav {
+    background-color: #2B3844;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.mode {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexnav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background-color: #2B3844;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section {
+    background-color: #202C36;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    background-color: #2B3844;
+    border: none;
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 32px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card {
+    background-color: #2B3844;
+    border-radius: 5px;
+    width: 264px;
+    height: 336px;
+}
+
+.ger {
+    width: 264px;
+    height: 160px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.bir {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.many {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.bir1 {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+.left {
+    margin-left: 24px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-between;
+}
+.cards2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+
+.card2 {
+    background-color: #2B3844;
+    border-radius: 5px;
+    width: 264px;
+    height: 336px;
+}
+@media screen and (max-width:1280px) {
+    .container{
+        width: 1200px;
+        margin-inline: auto ;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cards2{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1210px) {
+    .container{
+        width: 1100px;
+        margin-inline: auto ;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cards2{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1140px) {
+    .container{
+        width: 770px;
+        margin-inline: auto;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 74px;
+    }
+    .cards2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 74px;
+    }
+    .card{
+        width: 300px;
+        height: 372px;
+    }
+    .ger{
+        width: 300px;
+        height: 196px;
+    }
+    .card2{
+        width: 300px;
+        height: 372px;
+    }
+}
+@media screen and (max-width:830px) {
+    .container{
+        width: 700px;
+        margin-inline: auto;
+    }
+}
+@media screen and (max-width:730px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 400px;
+    }
+    .container{
+        width: 400px;
+    }
+    .card{
+        width: 400px;
+        height: 472px;
+    }
+    .ger{
+        width: 400px;
+        height: 296px;
+    }
+    .card2{
+        width: 400px;
+        height: 472px;
+    }
+}
+@media screen and (max-width:420px) {
+    .container{
+        width: 300px;
+        margin-inline: auto;
+    }
+    .card{
+        width: 300px;
+    }
+    .ger{
+        width: 300px;
+    }
+    .whrere{
+        font-size: 14px;
+    }
+    .btn{
+        width: 300px;
+    }
+}
