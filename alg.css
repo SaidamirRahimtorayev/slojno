@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1280px;
+    margin-inline: auto;
+}
+
+nav {
+    background-color: #2B3844;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.whrere {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.mode {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.flexnav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    background-color: #2B3844;
+    width: 136px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    gap: 10px;
+    align-items: center;
+    padding: 32px;
+}
+
+.viti {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.zab {
+    background-color: #202C36;
+    padding-top: 80px;
+}
+
+.germany {
+    border-radius: 5px;
+    width: 560px;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.native {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.belgium {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+
+.top {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.border {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.titbtn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.secflex {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.btn {
+    background-color: #2B3844;
+    width: 96px;
+    height: 28px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+section {
+    padding-bottom: 340px;
+}
+
